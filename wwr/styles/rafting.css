@@ -49,7 +49,8 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
-h1 {
+.hero h1,
+.hero article {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -62,4 +63,6 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    object-fit: cover; 
+    
 }
