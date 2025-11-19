@@ -20,15 +20,13 @@ body {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
-    background-color: #fff;
-}
+  }
 
 header {
-    background-color: #fff;
+   background-color: var(--primary-color);
+    color: var(--accent2-color);
     padding: 16px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 header img {
@@ -77,35 +75,28 @@ h2 {
 }
 
 .hero h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 48px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-    margin: 0;
-    padding: 0;
+   position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff; /* white text - make sure there is enough contrast with the background-color*/
 }
-
-.hero article {
+    
+   .hero article {
     position: absolute;
-    bottom: 20px;
+    top: 20px;
     left: 20px;
-    right: 20px;
-    background-color: rgba(38, 70, 83, 0.85);
     padding: 20px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    align-items: center;  
 }
 
 .hero article img {
     width: 125px;
-    height: auto;
-    flex-shrink: 0;
-}
+    float: right;
+   }
 
 .hero article p {
     margin: 0;
@@ -130,10 +121,7 @@ footer {
     background-color: var(--accent1-color);
     color: #fff;
     padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+   }
 
 footer p {
     margin: 0;
@@ -156,3 +144,4 @@ footer p {
     width: 32px;
     height: 32px;
 }
+
