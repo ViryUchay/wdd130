@@ -7,7 +7,6 @@
     --white: #fff;
     --light-gray: #f8f9fa;
     --border-gray: #e2e8f0;
-    --text-dark: #2d3748;
     --text-medium: #4a5568;
     --blue-primary: #4a90e2;
     --blue-dark: #2563eb;
@@ -701,4 +700,5 @@ footer a {
         width: 100%;
         margin: 0 0 10px 0;
     }
+
 }
